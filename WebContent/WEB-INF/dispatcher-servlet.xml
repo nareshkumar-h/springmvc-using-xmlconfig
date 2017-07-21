@@ -19,5 +19,6 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 
+	<mvc:view-controller path="/next" view-name="next"/>
 
 </beans>
