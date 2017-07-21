@@ -4,6 +4,28 @@ Note: Generate web.xml
 ## Step 2: Convert the web project to maven project 
 
 ## Step 3: Add Spring mvc Dependencies
+```
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>4.3.9.RELEASE</version>
+		</dependency>
+		
+	</dependencies>
+```
 
 ## Step 4: Configure Spring 
 
