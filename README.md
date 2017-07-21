@@ -8,6 +8,17 @@ Note: Generate web.xml
 ## Step 4: Configure Spring 
 
 * Edit web.xml and add configurations
+```
+	<servlet>
+		<servlet-name>dispatcher</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>dispatcher</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+  ```
 
 * Create dispatcher-servlet.xml file
 
