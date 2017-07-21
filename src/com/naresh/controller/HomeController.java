@@ -18,7 +18,7 @@ public class HomeController {
 	@RequestMapping(value="/home" , method = RequestMethod.GET)
 	public String home(ModelMap modelMap) {
 		System.out.println("Home");
-		modelMap.addAttribute("MESSAGE", "Welcome to Spring MVC");
+		modelMap.addAttribute("MESSAGE", "Success");
 		return "home";
 	}
 }
